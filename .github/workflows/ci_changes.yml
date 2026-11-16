@@ -6,6 +6,7 @@
 name: CI Changes
 
 on:
+  workflow_dispatch:
   workflow_call:
     outputs:
       code:
